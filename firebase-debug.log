@@ -1,41 +1,17 @@
-[debug] [2018-07-30T14:52:33.850Z] ----------------------------------------------------------------------
-[debug] [2018-07-30T14:52:33.854Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sonho\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 7000 --only functions,hosting
-[debug] [2018-07-30T14:52:33.854Z] CLI Version:   4.0.0
-[debug] [2018-07-30T14:52:33.854Z] Platform:      win32
-[debug] [2018-07-30T14:52:33.854Z] Node Version:  v8.11.2
-[debug] [2018-07-30T14:52:33.855Z] Time:          Mon Jul 30 2018 21:52:33 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-30T14:52:33.855Z] ----------------------------------------------------------------------
+[debug] [2018-07-30T18:18:27.395Z] ----------------------------------------------------------------------
+[debug] [2018-07-30T18:18:27.398Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sonho\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 7000 --only functions,hosting
+[debug] [2018-07-30T18:18:27.398Z] CLI Version:   4.0.0
+[debug] [2018-07-30T18:18:27.398Z] Platform:      win32
+[debug] [2018-07-30T18:18:27.398Z] Node Version:  v8.11.2
+[debug] [2018-07-30T18:18:27.399Z] Time:          Tue Jul 31 2018 01:18:27 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-30T18:18:27.399Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-07-30T14:52:33.869Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-07-30T14:52:33.870Z] > authorizing via signed-in user
-[debug] [2018-07-30T14:52:33.873Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sonhoait  
+[debug] [2018-07-30T18:18:27.413Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-30T18:18:27.414Z] > authorizing via signed-in user
+[debug] [2018-07-30T18:18:27.416Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sonhoait  
   
- Mon Jul 30 2018 21:52:33 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-30T14:52:35.074Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-30T14:52:35.075Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sonhoait/tokens  
+ Tue Jul 31 2018 01:18:27 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-30T18:18:28.440Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-30T18:18:28.442Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sonhoait/tokens  
   
- Mon Jul 30 2018 21:52:35 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-30T14:52:35.856Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-30T14:52:35.857Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/sonhoait  
-  
- Mon Jul 30 2018 21:52:35 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-30T14:52:37.076Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Serving from 'C:\Users\sonho\Desktop\blog'...
-[info] 
-[info] i  functions: Preparing to emulate functions.
-[debug] [2018-07-30T14:52:39.343Z] Fetching environment
-[debug] [2018-07-30T14:52:39.346Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1053607148930:getServerAppConfig  
-  
- Mon Jul 30 2018 21:52:39 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-30T14:52:39.347Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1053607148930/clients/_:getWebAppConfig  
-  
- Mon Jul 30 2018 21:52:39 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-30T14:52:40.039Z] <<< HTTP RESPONSE 200
-[info] i  hosting: Serving hosting files from: public
-[info] +  hosting: Local server: http://localhost:7000
-
-[debug] [2018-07-30T14:52:40.095Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-30T14:52:40.095Z] Starting @google-cloud/functions-emulator
-[debug] [2018-07-30T14:52:42.641Z] Parsing function triggers
-[info] +  functions: app: http://localhost:7001/sonhoait/us-central1/app
+ Tue Jul 31 2018 01:18:28 GMT+0700 (SE Asia Standard Time)
