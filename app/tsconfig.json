@@ -13,18 +13,19 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "noImplicitAny": true,
     "strictNullChecks": true,
+    "noImplicitAny": false,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "downlevelIteration": true
   },
   "exclude": [
+    "public",
     "node_modules",
     "build",
     "scripts",
     "acceptance-tests",
-    "webpack",
-    "jest",
+    "webpacks",
     "src/setupTests.ts"
   ]
 }
