@@ -1,4 +1,5 @@
 firebase.json
 node_modules
 .firebaserc
+!functions/
 functions/*
