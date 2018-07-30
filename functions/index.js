@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 
 app.get("/", (req, res) => {
     res.set('Cache-Control', 'public, max-age=300, s-maxage=1000')
-    res.sendFile(path.join(__dirname, '../public', 'app.html'))
+    res.sendFile(path.join(__dirname, '../public', 'index.html'))
 })
 
 app.use((req, res, next) => {
