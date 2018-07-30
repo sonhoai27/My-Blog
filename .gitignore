@@ -1,4 +1,4 @@
 firebase.json
 node_modules
 .firebaserc
-/functions/connection/db.js
+db.js
