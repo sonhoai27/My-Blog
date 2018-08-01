@@ -1,0 +1,127 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 53px;
+    margin: 0px 0 16px 0;
+    color: #1D2129;
+}
+
+a {
+    color: #1D2129;
+    text-decoration: none;
+    display: inline-block
+}
+
+a:hover {
+    color: #4080FF;
+    text-decoration: none;
+}
+
+a:hover h5 {
+    color: #4080FF;
+    text-decoration: none;
+}
+
+.paddingY-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.paddingY-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.paddingY-64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    padding: 24px 0px;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+    background-color: rgba(255, 255, 255, .98)!important;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    vertical-align: top;
+    text-align: left;
+    margin: 32px 20px 64px 20px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .08);
+    white-space: normal;
+    -webkit-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    -moz-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    color: #4B4F56;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 40px 40px rgba(0, 0, 0, .16);
+    transform: translate(0, -20px);
+    transition-delay: 0s !important;
+}
+
+.header-desc {
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #90949C !important;
+}
+
+.filter {
+    text-transform: capitalize;
+    line-height: 32px;
+    display: block!important;
+    font-size: 14px;
+    color: #90949C;
+    padding: 0;
+    border: none;
+}
+
+.filter a span {
+    margin-left: 8px;
+}
+
+#footer {
+    max-width: 1185px;
+    width: 100%;
+    margin: 110px auto 110px auto;
+    padding: 0 20px;
+}
+
+.copyright {
+    margin: 26px 0;
+    margin-left: 12px;
+    display: inline-block;
+    color: #90949C;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+#footer-links li {
+    display: inline-block;
+    line-height: 66px;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    margin: 0 10px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}

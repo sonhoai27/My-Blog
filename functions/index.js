@@ -4,9 +4,8 @@ const bodyParser = require("body-parser");
 const path = require('path')
 const app = express()
 const db = require('./connection/db')
+global.appRoot = path.resolve(__dirname);
 db.connectDB()
-
-const categoryModel = require('./model/Category')
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -25,12 +24,11 @@ app.use((req, res, next) => {
     }
     next();
 });
-
-app.get("/", (req, res) => {
-    res.set('Cache-Control', 'public, max-age=300, s-maxage=1000')
+require('./api/index.router')(app)
+app.get("/", (req, res, next) => {
+    // res.set('Cache-Control', 'public, max-age=300, s-maxage=1000')
     res.sendFile(path.join(__dirname, '../public', 'index.html'))
 })
-
 app.use((req, res, next) => {
     const error = new Error("Not found");
     error.status = 404;
