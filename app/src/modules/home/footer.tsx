@@ -16,7 +16,7 @@ class Footer extends React.Component {
                     <div className="row">
                         <div className="col-6">
                             <p className="copyright">SonHoai © {this.currentYear()}&nbsp;&nbsp;·&nbsp;&nbsp;
-                            <a target="_blank">Dashboard</a></p>
+                            <a href="./dashboard" target="_blank">Dashboard</a></p>
                         </div>
                         <div className="col-6 text-right">
                             <p className="copyright">Facebook © 2018&nbsp;&nbsp;·&nbsp;&nbsp;

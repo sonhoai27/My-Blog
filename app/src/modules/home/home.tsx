@@ -3,7 +3,7 @@ import Header from "./header";
 import ListArticle from './listArticle';
 import SideLeft from "./sideLeft";
 import Footer from "./footer";
-import Pagination from "../Pagination";
+import Pagination from "../shared/Pagination";
 import Login from "../admin/Login";
 
 class Home extends React.Component {

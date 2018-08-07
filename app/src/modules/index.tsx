@@ -2,7 +2,7 @@ import * as React from "react";
 import Home from "./home/home";
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import PrivateRouter from "../config/PrivateRouter";
-import Dashboard from "./admin/Dashboard";
+import DashboardRouter from "./admin/DashboardRouter";
 class Index extends React.Component {
     render() {
         return (
@@ -11,7 +11,7 @@ class Index extends React.Component {
                     <Route exact path="/" component={Home} />
                     <Route path="/contact-us" />
                     <Route path="/share-product" />
-                    <PrivateRouter path="/dashboard" component={Dashboard} />
+                    <PrivateRouter path="/dashboard" component={DashboardRouter} />
                 </Switch>
             </Router>
         )

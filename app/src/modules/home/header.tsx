@@ -10,10 +10,10 @@ class Header extends React.Component {
                         <div className="header-content">
                             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Music </a>
+                                    <a className="nav-link" href="#">Github </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Project </a>
+                                    <a className="nav-link" href="#">Library </a>
                                 </li>
                             </ul>
                             <div className="form-inline my-2 my-lg-0 float-right">

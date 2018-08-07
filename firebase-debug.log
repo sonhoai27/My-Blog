@@ -46,3 +46,53 @@
 [info] [hosting] Rewriting /api/about/hello to local function app
 [info] [hosting] Rewriting /api/about/hello to local function app
 [info] [hosting] Rewriting /api/about/hello to local function app
+[debug] [2018-08-07T02:31:30.472Z] ----------------------------------------------------------------------
+[debug] [2018-08-07T02:31:30.475Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sonho\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 7000 --only functions,hosting
+[debug] [2018-08-07T02:31:30.475Z] CLI Version:   4.0.1
+[debug] [2018-08-07T02:31:30.476Z] Platform:      win32
+[debug] [2018-08-07T02:31:30.476Z] Node Version:  v8.11.2
+[debug] [2018-08-07T02:31:30.476Z] Time:          Tue Aug 07 2018 09:31:30 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-08-07T02:31:30.476Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-07T02:31:30.504Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-07T02:31:30.504Z] > authorizing via signed-in user
+[debug] [2018-08-07T02:31:30.508Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-07T02:31:30.508Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ViQ8tCa5r6zrGZ_wml86BtUjUHN5L1lGdmIhWpqgt0I',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Aug 07 2018 09:31:30 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-08-07T02:31:32.143Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-07T02:31:32.150Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sonhoait  
+  
+ Tue Aug 07 2018 09:31:32 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-08-07T02:31:33.186Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-07T02:31:33.187Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sonhoait/tokens  
+  
+ Tue Aug 07 2018 09:31:33 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-08-07T02:31:34.127Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-07T02:31:34.128Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/sonhoait  
+  
+ Tue Aug 07 2018 09:31:34 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-08-07T02:31:35.436Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\sonho\Desktop\blog'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-08-07T02:31:37.212Z] Fetching environment
+[debug] [2018-08-07T02:31:37.218Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1053607148930:getServerAppConfig  
+  
+ Tue Aug 07 2018 09:31:37 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-08-07T02:31:37.218Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1053607148930/clients/_:getWebAppConfig  
+  
+ Tue Aug 07 2018 09:31:37 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-08-07T02:31:38.151Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:7000
+
+[debug] [2018-08-07T02:31:38.202Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-07T02:31:38.203Z] Starting @google-cloud/functions-emulator
+[debug] [2018-08-07T02:31:41.243Z] Parsing function triggers
+[info] +  functions: app: http://localhost:7001/sonhoait/us-central1/app

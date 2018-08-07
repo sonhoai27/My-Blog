@@ -125,3 +125,131 @@ a:hover h5 {
     background-repeat: no-repeat;
     background-position: left center;
 }
+
+#content-editor .wrap {
+    width: 100%;
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#content-editor .toolbar {
+    width: 100%;
+    margin: 0 auto 10px;
+}
+
+#content-editor button {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background: none;
+    border: 1px solid #fafafa;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 20px;
+    color: #a6a6a6;
+    cursor: pointer;
+    outline: none;
+}
+
+#content-editor button:hover {
+    border: 1px solid #a6a6a6;
+    color: #777;
+}
+
+#content-editor #bold,
+#content-editor #italic,
+#content-editor #underline {
+    font-size: 18px;
+}
+
+#content-editor #underline,
+#content-editor #align-right {
+    margin-right: 17px;
+}
+
+#content-editor #align-left {
+    margin-left: 17px;
+}
+
+#content-editor select {
+    height: 24px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #444;
+    background: #fcfcfc;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+#content-editor select>option {
+    font-size: 15px;
+    background: #fafafa;
+}
+
+#content-editor #fonts {
+    width: 140px;
+}
+
+#content-editor .sp-replacer {
+    background: #fcfcfc;
+    padding: 1px 2px 1px 3px;
+    border-radius: 3px;
+    border-color: #a6a6a6;
+    margin-top: -1px;
+}
+
+#content-editor .sp-replacer:hover {
+    border-color: #a6a6a6;
+    color: inherit;
+}
+
+#content-editor .sp-preview {
+    width: 15px;
+    height: 15px;
+    border: none;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+
+#content-editor .sp-preview-inner,
+#content-editor .sp-alpha-inner,
+#content-editor .sp-thumb-inner {
+    border-radius: 3px;
+}
+
+.editor {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    word-break: break-all;
+    outline: none;
+}
+
+#content-editor .table-bordered {
+    border: 1px solid #ddd;
+}
+
+#content-editor .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#content-editor .table td {
+    padding: 8px;
+    line-height: 1.42857143;
+    border: 1px solid #ddd;
+}
